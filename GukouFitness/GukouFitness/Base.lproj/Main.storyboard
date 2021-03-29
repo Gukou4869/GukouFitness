@@ -182,7 +182,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yS8-Z8-KwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="8Wq-62-WGQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="yAh-3f-HJ9"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="yAh-3f-HJ9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="KtA-B1-BoM">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -301,7 +301,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJD-KS-ApM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="1HA-Pz-t2U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="VVL-AR-vyF"/>
+                    <tabBarItem key="tabBarItem" image="plus" catalog="system" id="VVL-AR-vyF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="YjC-jm-4ND">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -318,7 +318,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mYK-jo-o8y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="0Ky-W3-J4p" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="cty-qg-QNh"/>
+                    <tabBarItem key="tabBarItem" image="person.circle" catalog="system" id="cty-qg-QNh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ISf-pH-2fx">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -368,6 +368,9 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="04268faf9993453a87794444c9122f86" width="736" height="1377"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
