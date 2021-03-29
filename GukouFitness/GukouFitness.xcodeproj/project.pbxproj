@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E58FF9692610B6B5005B3C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF9682610B6B5005B3C35 /* AppDelegate.swift */; };
+		1104EB482E876DA926DAA4FB /* Pods_GukouFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567248E5B55BF3EE3D2FBBDE /* Pods_GukouFitness.framework */; };
+		E58FF9692610B6B5005B3C35 /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF9682610B6B5005B3C35 /*  .swift */; };
 		E58FF96B2610B6B5005B3C35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */; };
 		E58FF96D2610B6B5005B3C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF96C2610B6B5005B3C35 /* ViewController.swift */; };
 		E58FF9702610B6B5005B3C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FF96E2610B6B5005B3C35 /* Main.storyboard */; };
@@ -15,11 +16,15 @@
 		E58FF9752610B6B7005B3C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FF9732610B6B7005B3C35 /* LaunchScreen.storyboard */; };
 		E58FF97E2610B901005B3C35 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF97D2610B901005B3C35 /* BackgroundColor.swift */; };
 		E58FF9812610BE42005B3C35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF9802610BE42005B3C35 /* HomeViewController.swift */; };
+		E58FF98426111FE3005B3C35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58FF98326111FE3005B3C35 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40586AE142C8C84055F8661F /* Pods-GukouFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GukouFitness.release.xcconfig"; path = "Target Support Files/Pods-GukouFitness/Pods-GukouFitness.release.xcconfig"; sourceTree = "<group>"; };
+		567248E5B55BF3EE3D2FBBDE /* Pods_GukouFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GukouFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC1BB044474CA5FB5F7B6B7 /* Pods-GukouFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GukouFitness.debug.xcconfig"; path = "Target Support Files/Pods-GukouFitness/Pods-GukouFitness.debug.xcconfig"; sourceTree = "<group>"; };
 		E58FF9652610B6B5005B3C35 /* GukouFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GukouFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E58FF9682610B6B5005B3C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E58FF9682610B6B5005B3C35 /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
 		E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E58FF96C2610B6B5005B3C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E58FF96F2610B6B5005B3C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		E58FF9762610B6B7005B3C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E58FF97D2610B901005B3C35 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
 		E58FF9802610BE42005B3C35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E58FF98326111FE3005B3C35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1104EB482E876DA926DAA4FB /* Pods_GukouFitness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E7339542F55712D5FC5530E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567248E5B55BF3EE3D2FBBDE /* Pods_GukouFitness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A7D494E8F7694A8D64975AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1BB044474CA5FB5F7B6B7 /* Pods-GukouFitness.debug.xcconfig */,
+				40586AE142C8C84055F8661F /* Pods-GukouFitness.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E58FF95C2610B6B5005B3C35 = {
 			isa = PBXGroup;
 			children = (
 				E58FF9672610B6B5005B3C35 /* GukouFitness */,
 				E58FF9662610B6B5005B3C35 /* Products */,
+				6A7D494E8F7694A8D64975AC /* Pods */,
+				5E7339542F55712D5FC5530E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +86,7 @@
 		E58FF9672610B6B5005B3C35 /* GukouFitness */ = {
 			isa = PBXGroup;
 			children = (
-				E58FF9682610B6B5005B3C35 /* AppDelegate.swift */,
+				E58FF9682610B6B5005B3C35 /*  .swift */,
 				E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */,
 				E58FF96C2610B6B5005B3C35 /* ViewController.swift */,
 				E58FF97D2610B901005B3C35 /* BackgroundColor.swift */,
@@ -69,6 +95,7 @@
 				E58FF9712610B6B7005B3C35 /* Assets.xcassets */,
 				E58FF9732610B6B7005B3C35 /* LaunchScreen.storyboard */,
 				E58FF9762610B6B7005B3C35 /* Info.plist */,
+				E58FF98326111FE3005B3C35 /* GoogleService-Info.plist */,
 			);
 			path = GukouFitness;
 			sourceTree = "<group>";
@@ -80,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E58FF9792610B6B7005B3C35 /* Build configuration list for PBXNativeTarget "GukouFitness" */;
 			buildPhases = (
+				688C0A662E296102DC3C378A /* [CP] Check Pods Manifest.lock */,
 				E58FF9612610B6B5005B3C35 /* Sources */,
 				E58FF9622610B6B5005B3C35 /* Frameworks */,
 				E58FF9632610B6B5005B3C35 /* Resources */,
+				1E37A15B458904E57AA4B8DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,12 +160,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58FF9752610B6B7005B3C35 /* LaunchScreen.storyboard in Resources */,
+				E58FF98426111FE3005B3C35 /* GoogleService-Info.plist in Resources */,
 				E58FF9722610B6B7005B3C35 /* Assets.xcassets in Resources */,
 				E58FF9702610B6B5005B3C35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E37A15B458904E57AA4B8DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GukouFitness/Pods-GukouFitness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GukouFitness/Pods-GukouFitness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GukouFitness/Pods-GukouFitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		688C0A662E296102DC3C378A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GukouFitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E58FF9612610B6B5005B3C35 /* Sources */ = {
@@ -145,7 +217,7 @@
 			files = (
 				E58FF9812610BE42005B3C35 /* HomeViewController.swift in Sources */,
 				E58FF96D2610B6B5005B3C35 /* ViewController.swift in Sources */,
-				E58FF9692610B6B5005B3C35 /* AppDelegate.swift in Sources */,
+				E58FF9692610B6B5005B3C35 /*  .swift in Sources */,
 				E58FF96B2610B6B5005B3C35 /* SceneDelegate.swift in Sources */,
 				E58FF97E2610B901005B3C35 /* BackgroundColor.swift in Sources */,
 			);
@@ -291,6 +363,7 @@
 		};
 		E58FF97A2610B6B7005B3C35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC1BB044474CA5FB5F7B6B7 /* Pods-GukouFitness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		E58FF97B2610B6B7005B3C35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40586AE142C8C84055F8661F /* Pods-GukouFitness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

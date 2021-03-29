@@ -30,12 +30,23 @@
                                     <constraint firstAttribute="width" constant="200" id="0qp-qk-KUs"/>
                                     <constraint firstAttribute="height" constant="50" id="NIm-Kb-D5h"/>
                                 </constraints>
-                                <state key="normal" title="Go to next page">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="eP8-cR-WPI" kind="show" id="eSC-xH-Z9h"/>
                                 </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You don't have account? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTN-pV-ba3">
+                                <rect key="frame" x="74" y="756" width="191" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAP-dv-b5V">
+                                <rect key="frame" x="267" y="752" width="52" height="30"/>
+                                <state key="normal" title="Sign up"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,6 +54,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pRq-28-Ln5" secondAttribute="bottom" constant="140" id="5Hr-HO-dFe"/>
                             <constraint firstItem="pRq-28-Ln5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T4U-OK-FNB"/>
+                            <constraint firstItem="NAP-dv-b5V" firstAttribute="top" secondItem="pRq-28-Ln5" secondAttribute="bottom" constant="30" id="pdv-UP-U0i"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nyx-vZ-3dm"/>
@@ -50,6 +62,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="389.85507246376812" y="-110.49107142857143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U6i-Be-aDX">
+            <objects>
+                <viewController id="npx-X1-PNN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Phx-O0-v6K">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2Ed-cs-V5r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rot-U1-eea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1390" y="243"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nOR-bv-d4M">
@@ -65,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h86-9w-IPh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1343" y="-110"/>
+            <point key="canvasLocation" x="1391" y="-518"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ir3-30-O8G">
