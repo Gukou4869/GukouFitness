@@ -168,9 +168,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y0y-cB-Xbn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" red="0.14735869607934871" green="0.23223716943500547" blue="0.47573884000483246" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="barTintColor" red="0.22517336960000001" green="0.35487302329999998" blue="0.7269589139" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <color key="tintColor" systemColor="systemRedColor"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                     </tabBar>
                     <connections>
@@ -278,13 +278,13 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i1J-ms-XHo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3557" y="-554"/>
+            <point key="canvasLocation" x="3558" y="-483"/>
         </scene>
-        <!--Profile-->
+        <!--WeightGraph-->
         <scene sceneID="oLB-NE-RRw">
             <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="BtQ-qG-3EZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="QYL-89-DoC"/>
+                <viewControllerPlaceholder storyboardName="WeightGraph" id="BtQ-qG-3EZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="person" catalog="system" id="QYL-89-DoC"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bqp-vh-WAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -298,7 +298,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SlA-DT-PAd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3559" y="80"/>
+            <point key="canvasLocation" x="3558" y="61"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -306,6 +306,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="04268faf9993453a87794444c9122f86" width="736" height="1377"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -326,6 +327,9 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

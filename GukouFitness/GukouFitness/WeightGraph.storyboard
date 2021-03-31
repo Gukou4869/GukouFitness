@@ -12,7 +12,7 @@
         <scene sceneID="VFy-D2-2i0">
             <objects>
                 <navigationController id="nFi-oW-JZj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Graph" image="text.book.closed.fill" catalog="system" id="S63-Ti-ulw"/>
+                    <tabBarItem key="tabBarItem" title="Graph" image="chart.bar.xaxis" catalog="system" id="S63-Ti-ulw"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="L5o-Ak-2iZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -44,7 +44,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="text.book.closed.fill" catalog="system" width="115" height="128"/>
+        <image name="chart.bar.xaxis" catalog="system" width="128" height="98"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
