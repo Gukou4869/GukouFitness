@@ -9,24 +9,37 @@ import UIKit
 import Firebase
 
 class HomeViewController: UIViewController {
+    
+    let shapeLayer = CAShapeLayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
+        view.backgroundColor = .black
 //        let gradientLayer = CAGradientLayer()
 //        gradientLayer.frame = self.view.bounds
 //        gradientLayer.colors = [UIColor.yellow.cgColor, UIColor.white.cgColor]
 //        self.view.layer.insertSublayer(gradientLayer, at: 0)
         
-        //let's start by drawing a circle a circle somehow
-        
-        let shapeLayer = CAShapeLayer()
-        
         let center = view.center
-        let circularPath = UIBezierPath(arcCenter: center, radius: 100, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
+        
+        //create my tracker layer
+        let trackLayer = CAShapeLayer()
+        let circularPath = UIBezierPath(arcCenter: center, radius: 100, startAngle: -CGFloat.pi/2, endAngle: 2*CGFloat.pi, clockwise: true)
+        
+        trackLayer.path = circularPath.cgPath
+        trackLayer.strokeColor = UIColor.gray.cgColor
+        trackLayer.lineWidth = 10
+        view.layer.addSublayer(trackLayer)
+        
+        //let's start by drawing a circle a circle somehow
         shapeLayer.path = circularPath.cgPath
         shapeLayer.strokeColor = UIColor.red.cgColor
         shapeLayer.lineWidth = 10
+        
+        shapeLayer.lineCap = CAShapeLayerLineCap.round
+        
+        shapeLayer.strokeEnd = 0
         
         view.layer.addSublayer(shapeLayer)
 
@@ -34,7 +47,15 @@ class HomeViewController: UIViewController {
     }
     
     @objc private func handleTap() {
-        print("shota")
+        
+        let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
+        
+        basicAnimation.toValue = 1
+        basicAnimation.duration = 0.3
+        basicAnimation.fillMode = CAMediaTimingFillMode.forwards
+        basicAnimation.isRemovedOnCompletion = false
+        
+        shapeLayer.add(basicAnimation, forKey: "urSoBasic")
     }
     @IBAction func logoutPressed(_ sender: UIBarButtonItem) {
         do {
