@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1104EB482E876DA926DAA4FB /* Pods_GukouFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567248E5B55BF3EE3D2FBBDE /* Pods_GukouFitness.framework */; };
+		E5321AC22614A0E200A48681 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5321AC12614A0E200A48681 /* Home.storyboard */; };
+		E5321AC52614A0F800A48681 /* WeightGraph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5321AC42614A0F800A48681 /* WeightGraph.storyboard */; };
+		E5321AC82614A10900A48681 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5321AC72614A10900A48681 /* Profile.storyboard */; };
 		E58FF9692610B6B5005B3C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF9682610B6B5005B3C35 /* AppDelegate.swift */; };
 		E58FF96B2610B6B5005B3C35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */; };
 		E58FF96D2610B6B5005B3C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF96C2610B6B5005B3C35 /* ViewController.swift */; };
@@ -25,6 +28,9 @@
 		40586AE142C8C84055F8661F /* Pods-GukouFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GukouFitness.release.xcconfig"; path = "Target Support Files/Pods-GukouFitness/Pods-GukouFitness.release.xcconfig"; sourceTree = "<group>"; };
 		567248E5B55BF3EE3D2FBBDE /* Pods_GukouFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GukouFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC1BB044474CA5FB5F7B6B7 /* Pods-GukouFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GukouFitness.debug.xcconfig"; path = "Target Support Files/Pods-GukouFitness/Pods-GukouFitness.debug.xcconfig"; sourceTree = "<group>"; };
+		E5321AC12614A0E200A48681 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E5321AC42614A0F800A48681 /* WeightGraph.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeightGraph.storyboard; sourceTree = "<group>"; };
+		E5321AC72614A10900A48681 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		E58FF9652610B6B5005B3C35 /* GukouFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GukouFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58FF9682610B6B5005B3C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 				E58FF9A4261171FF005B3C35 /* LoginViewController.swift */,
 				E58FF9A7261173FA005B3C35 /* SignUpViewController.swift */,
 				E58FF96E2610B6B5005B3C35 /* Main.storyboard */,
+				E5321AC12614A0E200A48681 /* Home.storyboard */,
+				E5321AC42614A0F800A48681 /* WeightGraph.storyboard */,
+				E5321AC72614A10900A48681 /* Profile.storyboard */,
 				E58FF9802610BE42005B3C35 /* HomeViewController.swift */,
 				E58FF9712610B6B7005B3C35 /* Assets.xcassets */,
 				E58FF9732610B6B7005B3C35 /* LaunchScreen.storyboard */,
@@ -166,9 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58FF9752610B6B7005B3C35 /* LaunchScreen.storyboard in Resources */,
+				E5321AC22614A0E200A48681 /* Home.storyboard in Resources */,
 				E58FF98426111FE3005B3C35 /* GoogleService-Info.plist in Resources */,
 				E58FF9722610B6B7005B3C35 /* Assets.xcassets in Resources */,
 				E58FF9702610B6B5005B3C35 /* Main.storyboard in Resources */,
+				E5321AC82614A10900A48681 /* Profile.storyboard in Resources */,
+				E5321AC52614A0F800A48681 /* WeightGraph.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

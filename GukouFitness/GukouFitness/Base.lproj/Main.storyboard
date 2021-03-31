@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q84-OA-z1g">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F0P-Ic-uTA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -158,7 +158,13 @@
         <scene sceneID="MEb-ZA-37g">
             <objects>
                 <tabBarController extendedLayoutIncludesOpaqueBars="YES" id="Q84-OA-z1g" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="p8t-sV-wEf"/>
+                    <navigationItem key="navigationItem" id="p8t-sV-wEf">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="afs-Oa-G66">
+                            <connections>
+                                <action selector="logoutPressed:" destination="oeL-9y-J2I" id="Sgw-VQ-llc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y0y-cB-Xbn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -174,13 +180,13 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XrM-fD-m3y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="oeL-9y-J2I" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3258" y="-331"/>
+            <point key="canvasLocation" x="3258" y="-437"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2O1-1y-B1m">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yS8-Z8-KwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="8Wq-62-WGQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="yAh-3f-HJ9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="KtA-B1-BoM">
@@ -191,6 +197,7 @@
                         <segue destination="fOu-jZ-ZXQ" kind="relationship" relationship="rootViewController" id="pLz-V4-71e"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yS8-Z8-KwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2564" y="444"/>
         </scene>
@@ -249,7 +256,7 @@
                                 </state>
                                 <connections>
                                     <action selector="LoginPressed:" destination="eP8-cR-WPI" eventType="touchUpInside" id="8dg-l4-dtQ"/>
-                                    <segue destination="Q84-OA-z1g" kind="show" id="Uls-KY-Boa"/>
+                                    <segue destination="Q84-OA-z1g" kind="show" identifier="loginToHome" id="Uls-KY-Boa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -299,7 +306,6 @@
         <!--Navigation Controller-->
         <scene sceneID="VZ3-bT-SMf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uJD-KS-ApM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="1HA-Pz-t2U" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" image="plus" catalog="system" id="VVL-AR-vyF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="YjC-jm-4ND">
@@ -310,13 +316,13 @@
                         <segue destination="lqi-Mq-yXb" kind="relationship" relationship="rootViewController" id="xfK-MO-d6o"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uJD-KS-ApM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3258" y="444"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3HI-49-UpP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mYK-jo-o8y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="0Ky-W3-J4p" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" image="person.circle" catalog="system" id="cty-qg-QNh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ISf-pH-2fx">
@@ -327,6 +333,7 @@
                         <segue destination="kzz-BU-N5S" kind="relationship" relationship="rootViewController" id="o9b-3U-fGg"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYK-jo-o8y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3930" y="444"/>
         </scene>
@@ -364,7 +371,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uls-KY-Boa"/>
+        <segue reference="LTO-3X-BB1"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="04268faf9993453a87794444c9122f86" width="736" height="1377"/>
