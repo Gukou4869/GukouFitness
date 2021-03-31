@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="3936" y="444"/>
         </scene>
-        <!--View Controller-->
+        <!--Wight Graph View Controller-->
         <scene sceneID="klQ-5m-MI2">
             <objects>
-                <viewController id="JOu-qa-7BV" sceneMemberID="viewController">
+                <viewController id="JOu-qa-7BV" customClass="WightGraphViewController" customModule="GukouFitness" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3OH-iC-1hv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

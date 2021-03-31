@@ -11,6 +11,8 @@
 		E5321AC22614A0E200A48681 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5321AC12614A0E200A48681 /* Home.storyboard */; };
 		E5321AC52614A0F800A48681 /* WeightGraph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5321AC42614A0F800A48681 /* WeightGraph.storyboard */; };
 		E5321AC82614A10900A48681 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5321AC72614A10900A48681 /* Profile.storyboard */; };
+		E5321ACB2614A4CD00A48681 /* WightGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5321ACA2614A4CD00A48681 /* WightGraphViewController.swift */; };
+		E5321AD42614A59300A48681 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5321AD32614A59300A48681 /* ProfileViewController.swift */; };
 		E58FF9692610B6B5005B3C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF9682610B6B5005B3C35 /* AppDelegate.swift */; };
 		E58FF96B2610B6B5005B3C35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */; };
 		E58FF96D2610B6B5005B3C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FF96C2610B6B5005B3C35 /* ViewController.swift */; };
@@ -31,6 +33,8 @@
 		E5321AC12614A0E200A48681 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		E5321AC42614A0F800A48681 /* WeightGraph.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeightGraph.storyboard; sourceTree = "<group>"; };
 		E5321AC72614A10900A48681 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		E5321ACA2614A4CD00A48681 /* WightGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WightGraphViewController.swift; sourceTree = "<group>"; };
+		E5321AD32614A59300A48681 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E58FF9652610B6B5005B3C35 /* GukouFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GukouFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58FF9682610B6B5005B3C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58FF96A2610B6B5005B3C35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				E5321AC42614A0F800A48681 /* WeightGraph.storyboard */,
 				E5321AC72614A10900A48681 /* Profile.storyboard */,
 				E58FF9802610BE42005B3C35 /* HomeViewController.swift */,
+				E5321ACA2614A4CD00A48681 /* WightGraphViewController.swift */,
+				E5321AD32614A59300A48681 /* ProfileViewController.swift */,
 				E58FF9712610B6B7005B3C35 /* Assets.xcassets */,
 				E58FF9732610B6B7005B3C35 /* LaunchScreen.storyboard */,
 				E58FF9762610B6B7005B3C35 /* Info.plist */,
@@ -238,6 +244,8 @@
 				E58FF9812610BE42005B3C35 /* HomeViewController.swift in Sources */,
 				E58FF96D2610B6B5005B3C35 /* ViewController.swift in Sources */,
 				E58FF9692610B6B5005B3C35 /* AppDelegate.swift in Sources */,
+				E5321ACB2614A4CD00A48681 /* WightGraphViewController.swift in Sources */,
+				E5321AD42614A59300A48681 /* ProfileViewController.swift in Sources */,
 				E58FF96B2610B6B5005B3C35 /* SceneDelegate.swift in Sources */,
 				E58FF97E2610B901005B3C35 /* BackgroundColor.swift in Sources */,
 			);

@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="1674" y="547"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="Au2-q5-ags">
             <objects>
-                <viewController id="nYo-G6-ITD" sceneMemberID="viewController">
+                <viewController id="nYo-G6-ITD" customClass="ProfileViewController" customModule="GukouFitness" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJg-mT-SxP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
