@@ -10,6 +10,12 @@ import Firebase
 
 class HomeViewController: UIViewController {
     
+    var user:User? {
+        didSet{
+            print(user?.name)
+        }
+    }
+    
     let shapeLayer = CAShapeLayer()
 
     override func viewDidLoad() {
